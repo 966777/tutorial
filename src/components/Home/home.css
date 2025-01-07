@@ -1,0 +1,68 @@
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c, #f7a569, #ffcc33);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+  }
+  
+  .hero-content {
+    z-index: 1;
+    position: relative;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .buttons .btn {
+    margin: 0 0.5rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn.primary {
+    background: #0073e6;
+    color: white;
+  }
+  
+  .btn.secondary {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  /* Keyframes for gradient animation */
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    background: #f5f5f5;
+  }
+  

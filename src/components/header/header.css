@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: rgb(233, 220, 220);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li {
+    cursor: pointer;
+    list-style: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+    /* Smooth hover effects */
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li:hover {
+    color: #0073e6;
+    /* Change color on hover */
+    transform: scale(1.1);
+    /* Slight zoom effect */
+}
+
+.sign-in {
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+    /* Smooth hover effects */
+}
+
+.sign-in:hover {
+    background: black;
+    color: white;
+}
