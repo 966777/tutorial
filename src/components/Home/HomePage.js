@@ -3,6 +3,8 @@ import './home.css';
 import Card from '../Cards/Card';
 import { cardsData } from '../../App';
 import ServicePage from '../services/ServicePage';
+import Hooks1 from '../hooks/Hooks1';
+import Hooks2 from "../hooks/Hooks2"
 
 function HomePage(props) {
 
@@ -10,7 +12,9 @@ function HomePage(props) {
 
     return (
         <>
-            <section className="hero">
+        <Hooks1/>
+        <Hooks2/>
+            {/* <section className="hero">
                 <div className="hero-content">
                     <h1>I am {props.name} and age is {props.age}.</h1>
                     <p>Get your inspiration flowing with our video, design, photo, and UI/UX apps.</p>
@@ -29,8 +33,8 @@ function HomePage(props) {
                         imageUrl={card.imageUrl}
                     />
                 ))}
-            </div>
-            <ServicePage />
+            </div> */}
+            {/* <ServicePage /> */}
         </>
     );
 }
