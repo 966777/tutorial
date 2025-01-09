@@ -1,14 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './marketing.css';
 
-function Marketing () {
-  return (
-    <div>
-      This is Marketing
+function Marketing (){
+    return (
       <div>
-        this is place of marketing
+        this is a marketing place
       </div>
-</div>
-  )
+    );
 }
-
-export default Marketing
+export default Marketing;
