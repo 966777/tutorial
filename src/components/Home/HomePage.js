@@ -12,7 +12,6 @@ function HomePage() {
                     <h1>Creative journeys start here.</h1>
                     <p>Get your inspiration flowing with our video, design, photo, and UI/UX apps.</p>
                     <div className="buttons">ss
-                        <button className="btn primary">Start Free Trial</button>
                         <button className="btn secondary">Explore Creative Cloud</button>
                     </div>
                 </div>
