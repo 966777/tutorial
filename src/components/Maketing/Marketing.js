@@ -4,7 +4,10 @@ function Marketing () {
   return (
     <div>
       This is Marketing
-    </div>
+      <div>
+        this is place of marketing
+      </div>
+</div>
   )
 }
 
