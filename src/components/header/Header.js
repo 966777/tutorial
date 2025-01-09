@@ -12,7 +12,6 @@ function Header() {
           <li><Link to="/about">About</Link></li>
           <li><Link to="/marketing">Marketing & Commerce</Link></li>
           <li><Link to="/support">Help & Support</Link></li>
-          <li><Link to="/sign">Help & Support</Link></li>
         </ul>
       </nav>
       <button className="sign-in">Sign In</button>
