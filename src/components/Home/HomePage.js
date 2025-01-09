@@ -4,12 +4,15 @@ import Card from '../Cards/Card';
 import { cardsData } from '../../App';
 import ServicePage from '../services/ServicePage';
 
-function HomePage() {
+function HomePage(props) {
+
+
+
     return (
         <>
             <section className="hero">
                 <div className="hero-content">
-                    <h1>Creative journeys start here.</h1>
+                    <h1>I am {props.name} and age is {props.age}.</h1>
                     <p>Get your inspiration flowing with our video, design, photo, and UI/UX apps.</p>
                     <div className="buttons">
                         <button className="btn secondary">Explore Creative Cloud</button>

@@ -10,11 +10,15 @@ import SupportPage from './components/Support/SupportPage';
 
 function App() {
 
+  const name="Mamta"
+  const age=25
+  
+
   return (
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<HomePage name={name} age={age}  />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/marketing" element={<Marketing />} />
         <Route path="/support" element={<SupportPage />} />
